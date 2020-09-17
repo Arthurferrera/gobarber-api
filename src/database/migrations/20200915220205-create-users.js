@@ -1,5 +1,6 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
+    // definindo as colunas do banco
     return queryInterface.createTable('users', {
       id: {
         type: Sequelize.INTEGER,

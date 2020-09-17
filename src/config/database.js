@@ -1,3 +1,4 @@
+// Credenciais do banco de dados
 module.exports = {
   dialect: 'postgres',
   host: 'localhost',
@@ -7,6 +8,6 @@ module.exports = {
   define: {
     timestamps: true,
     underscored: true,
-    underscoredAll: true
-  }
-}
+    underscoredAll: true,
+  },
+};

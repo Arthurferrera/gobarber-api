@@ -6,6 +6,7 @@ import authConfig from '../../config/auth';
 export default async (req, res, next) => {
   const authHeader = req.headers.authorization;
 
+  // validando se o token é valido para permitir o acesso
   if (!authHeader) {
     return res.status(401).json({ error: 'Token not provided' });
   }

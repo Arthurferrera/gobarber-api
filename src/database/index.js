@@ -6,6 +6,7 @@ import databaseConfig from '../config/database';
 
 const models = [User];
 
+// classe que realiza a conexão com o banco de dados
 class Database {
   constructor() {
     this.init();
